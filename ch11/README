@@ -1,0 +1,16 @@
+This contains the example Java program showing how file locking is
+provided. This example has been modified somewhat from the text in that
+the file being locked is passed on the command line.
+
+Also, the thread produces an output message before trying to acquire 
+the lock and after it has released it. Furthermore, once it has acquired
+the lock, thread waits ten seconds before releasing it.
+
+On systems supporting either manadatory (i.e. Windows) or advisory 
+(i.e. UNIX) locking, running two copies of this program illustrates how
+the Java file locking API works. 
+
+Another test is to first run the Java program to acquire
+the file lock. Next, try opening the locked file  using a standard text editor
+or word processor. Compare the different behavior on mandatory and advisory
+systems.
