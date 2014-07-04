@@ -1,3 +1,5 @@
+Figure 11.2  LockingExample.java
+
 This contains the example Java program showing how file locking is
 provided. This example has been modified somewhat from the text in that
 the file being locked is passed on the command line.

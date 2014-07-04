@@ -1,0 +1,12 @@
+The following 3 files are related to virtual memory manager project:
+
+    BACKING_STORE.bin   
+    addresses.txt       
+    correct.txt     
+
+windows-programs (directory)
+
+    README      
+    temp.txt    
+    Figure 9.25 consumer.c  
+    Figure 9.26 producer.c  

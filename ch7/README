@@ -1,0 +1,5 @@
+Figure 7.4 deadlock.c
+
+This program illustrates deadlock - read through it to better understand
+how the program operates. Deadlock is not always possible and it depends
+upon how the threads are scheduled by the operating system.

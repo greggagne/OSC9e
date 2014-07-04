@@ -1,0 +1,12 @@
+Figure 3.9 newproc-posix.c
+Figure 3.11 newproc-win32.c
+Figure 3.17 shm-posix-consumer.c
+Figure 3.18 shm-posix-producer.c
+Figure 3.21 DateServer.java
+Figure 3.22 DateClient.java
+Figure 3.25/3.26 unix_pipe.c
+Figure 3.27 win32-pipe-parent.c
+Figure 3.29 win32-pipe-child.c
+Figure 3.30 fork-question-1.c
+Figure 3.31 fork-question-2.c
+Figure 3.36 simple-shell.c

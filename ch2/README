@@ -1,0 +1,4 @@
+This contains the source code and Makefile for the programming 
+project for creating a Linux kernel module.
+
+Refer to the project for instructions on building the module.

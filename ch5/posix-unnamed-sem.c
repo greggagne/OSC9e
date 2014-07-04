@@ -3,7 +3,7 @@
  *
  * Compilation (on Linux):
  *
- *	gcc -lpthread posix-sem.c
+ *	gcc -lpthread posix-unnamed-sem.c
  *
  * This example includes the appropriate error checking
  * that is not covered in the text.
