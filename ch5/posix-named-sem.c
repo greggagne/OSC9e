@@ -34,21 +34,21 @@ sem_t *sem;
 
     // first remove the semaphore if it already exists
     if (sem_unlink("OSC") == -1)
-              printf("Error removing %s\n",strerror(errno));
+        printf("Error removing %s\n",strerror(errno));
 
     // create and initialize the semaphore
     if ( (sem = sem_open("OSC", O_CREAT, 0666, 1)) == SEM_FAILED)
-              printf("Error creating %s\n",strerror(errno));
+        printf("Error creating %s\n",strerror(errno));
 
 	if (sem_wait(sem) != 0)
-              printf("Error waiting %s\n",strerror(errno));
+       printf("Error waiting %s\n",strerror(errno));
 
-        printf("*** Critical Section *** \n");
+    printf("*** Critical Section *** \n");
 
 	if (sem_post(sem) != 0)
-              printf("Error posting %s\n",strerror(errno));
+        printf("Error posting %s\n",strerror(errno));
 
-        printf("*** Non-Critical Section *** \n");
+    printf("*** Non-Critical Section *** \n");
 
     return 0;
 }
