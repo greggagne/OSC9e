@@ -2,7 +2,8 @@ This contains source code for the 9th edition of
 "Operating System Concepts" by Silberschatz/Galvin/Gagne.
 Published by John Wiley & Sons.
 
-Source files are organized by Chapter.
+Source files are organized by Chapter. (Each chapter has a
+separate README file.)
 
 To download all files, enter
 
