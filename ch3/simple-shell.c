@@ -27,7 +27,7 @@ int main(void)
          * After reading user input, the steps are:
          * (1) fork a child process
          * (2) the child process will invoke execvp()
-         * (3) if command included &, parent will invoke wait()
+         * (3) if command did not include &, parent will invoke wait()
          */
     }
     
